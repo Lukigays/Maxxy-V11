@@ -19,11 +19,11 @@ global.APIKeys = {
 }
 
 // Other
-global.owner = ['6285380166282']
-global.ownernomer = "6285380166282"
-global.premium = ['6285380166282']
-global.packname = 'Sticker  Kahfi-XD'
-global.author = 'Naze'
+global.owner = ['62895347158464']
+global.ownernomer = "62895347158464"
+global.premium = ['62895347158464']
+global.packname = 'Sticker  LukyyBot-XD'
+global.author = 'Luki'
 global.sessionName = 'nazedev'  //jangan diganti bro nanti error
 global.prefa = ['','!','.','#','&']
 global.sp = ''
@@ -46,10 +46,4 @@ global.limitawal = {
 global.thumb = fs.readFileSync('./image/naze.jpg')
 global.vaze = { url: 'https://telegra.ph/file/15209657f9d4f59c7ca1e.mp4' }
 
-let file = require.resolve(__filename)
-fs.watchFile(file, () => {
-	fs.unwatchFile(file)
-	console.log(chalk.redBright(`Update'${__filename}'`))
-	delete require.cache[file]
-	require(file)
-})
+let file = require.resolve(_
